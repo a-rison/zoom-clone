@@ -34,6 +34,12 @@ io.on('connection', socket => {
         socket.on('disconnect', () => {
             socket.to(roomId).emit('user-disconnected', userId)
         })
+        socket.on('toggle-video', data => {
+            socket.broadcast.emit('toggle-video', data);
+        })
+        socket.on('toggle-audio', data => {
+            socket.broadcast.emit('toggle-audio', data);
+        });
     })
 })
 
