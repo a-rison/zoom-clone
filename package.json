@@ -18,7 +18,7 @@
     "peerjs": "^1.5.0",
     "socket.io": "^4.7.2",
     "uuid": "^9.0.0",
-    "ws": "^8.13.0"
+    "ws": "^8.14.0"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.7",
