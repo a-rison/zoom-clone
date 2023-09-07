@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "netlify deploy --prod",
+    "build": "npm install",
     "start": "node server.js"
   },
   "keywords": [],
