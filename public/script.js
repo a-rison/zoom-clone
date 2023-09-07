@@ -3,7 +3,7 @@ const videoGrid = document.getElementById('video-grid')
 const peer = new Peer(undefined, {
     path: '/peerjs',
     host: '/',
-    port: '3000',
+    port: '3001',
     config: {
         'iceServers': [
             { url: 'stun:stun01.sipphone.com' },
